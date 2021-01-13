@@ -1,0 +1,1 @@
+ricontrollare la img revolut e align item per il flex

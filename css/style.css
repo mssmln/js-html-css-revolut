@@ -26,7 +26,6 @@ a{
 
 .menu{
   max-width: 1200px;
-  height: 100%;
   margin: auto;
   display: flex;
   align-items: center;
@@ -46,7 +45,6 @@ a{
 .menu-right ul{
   display: flex;
   list-style: none;
-  align-items: center;
 }
 
 .menu-left li{
@@ -114,14 +112,16 @@ img{
 
 
 /* dropdown menu */
-.active{
+/* serve specificare quale classe le verrà assegnata il display */
+.dropdown-menu.active{
   display: block;
 }
 
 .dropdown-menu{
   position: absolute;
   top: 30px;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   background-color: red;
   display: none;
 }
