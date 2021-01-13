@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  padding: 50px 0;
+  /* background-color: red; */
+}
+
+header ul li{
+  position: relative;
+}
+
+/* menu  */
+a{
+  color: #AEB3B9;
+  text-decoration: none;
+}
+
+
+.menu{
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+/* menu left  */
+
+.menu-left{
+  /* background-color: blue; */
+  flex-grow: 1;
+}
+
+.menu-left ul,
+.menu-right ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.menu-left li{
+  margin-left: 40px;
+}
+
+img{
+  width: 100px;
+}
+
+.menu-left ul li a{
+  text-transform: uppercase;
+}
+
+/* /menu left */
+
+
+
+
+/* menu right */
+.menu-right{
+  /* background-color: pink; */
+}
+
+.menu-right ul li{
+  margin-right: 40px;
+}
+
+.menu-right ul li:last-child a{
+  text-transform: uppercase;
+}
+
+.menu-right ul li:last-child a::after{
+  content: "\f078";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 8px;
+  margin-left: 5px;
+}
+
+
+.menu-right ul li a{
+  text-transform: capitalize;
+}
+
+
+/* /menu right */
+
+/* download app */
+.download-app{
+  background-color: #EB008D;
+  border-radius: 20px;
+  padding: 12px;
+}
+
+.download-app a{
+  color: white;
+}
+
+
+/* /download app */
+
+
+/* /menu */
+
+
+/* dropdown menu */
+.active{
+  display: block;
+}
+
+.dropdown-menu{
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: red;
+  display: none;
+}
+
+.list{
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+
+
+
+
+
+/* /dropdown menu */
